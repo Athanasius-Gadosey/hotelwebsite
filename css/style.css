@@ -1,0 +1,286 @@
+/* reset all body */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* The main body */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+.container {
+    margin: auto;
+    padding: 0 18px;
+    overflow: auto;
+}
+
+a {
+    color: rgba(32, 31, 31, 0.946);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 18px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* start navbar */
+#navbar {
+    background-color: rgba(32, 31, 31, 0.946);
+    color: white;
+    overflow: auto;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar .logo a {
+    color: rgba(255, 255, 255, 0.774);
+}
+
+#navbar .logo a:hover {
+    color: tomato;
+}
+
+#navbar ul li a {
+    color: whitesmoke;
+}
+
+#navbar ul li a:hover {
+    color: tomato;
+}
+
+#navbar ul {
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+    list-style: none;
+    display: block;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#navbar ul li a.current{
+    color: rgb(238, 106, 83);
+    cursor: pointer;
+}
+
+
+/* start of Exhibit */
+
+.exhibit {
+    text-align: center;
+    background: url(../images/roomhotels.jpg) no-repeat center center/cover;
+    height: 600px;
+    line-height: 1.8em;
+    opacity: 1.0;
+}
+
+.exhibit-love {
+    text-transform: capitalize;
+    padding-top: 100px;
+    font-size: 38px;
+    color: whitesmoke;
+}
+
+.exhibit .different {
+    color: rgb(46, 110, 136);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.primary {
+    color: orange;
+}
+
+.exhibit p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: burlywood;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(161, 55, 175);
+    font-size: 20px;
+    background-color: rgba(93, 139, 32, 0.39);
+}
+.btn-light{
+    background-color: rgba(0, 0, 255, 0.301);
+    color: black;
+}
+.bg-dark{
+    background: rgb(85, 82, 82);
+    color: white;
+}
+
+.btn-light{
+    background-color: rgba(0, 0, 255, 0.301);
+    color: black;
+}
+.bg-primary{
+    background: rgb(223, 220, 71);
+    color: white;
+}
+
+#clr{
+    clear: both;
+}
+
+.b-heading{
+    font-size: 41px;
+    text-transform: capitalize;
+}
+
+/* Padding utitlities */
+.py-1{ padding: 10px 0;}
+.py-2{ padding: 20px 0;}
+.py-3{ padding: 30px 0;}
+
+
+/* home-info */
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../images/photo-1.jpg) no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* 2nd section of feature */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 12px;
+}
+
+/* AboutpageInfo */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background: url(../images/test-bg.jpg)  no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    width: 130px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Page */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(51, 48, 48);
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px #ddd solid;
+}
+
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    border-color: rgb(240, 89, 62);
+}
+
+#contact-form h1, p{
+    text-align: center;
+}
+
+#contact-form p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(163, 163, 137);
+}
+
+
+/* main-footer */
+#main-footer{
+    text-align: center;
+    background: rgba(78, 78, 65, 0.836);
+    color: rgba(245, 245, 245, 0.829);
+    padding: 15px;
+    opacity: 0.8;
+}
+
